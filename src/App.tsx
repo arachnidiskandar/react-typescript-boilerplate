@@ -1,11 +1,11 @@
 import React from 'react';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <p>Hello World</p>
+    <div>
+      <h1>hello world</h1>
     </div>
   );
-}
+};
 
 export default App;
